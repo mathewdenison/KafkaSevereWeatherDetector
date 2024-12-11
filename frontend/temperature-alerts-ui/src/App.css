@@ -1,0 +1,48 @@
+.App-header {
+  padding: 20px;
+}
+
+.SearchBar input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.Graph {
+  margin: 20px 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.pagination li {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.pagination .active {
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+}
